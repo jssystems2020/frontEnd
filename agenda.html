@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/itable.png">
+    <link rel="stylesheet" type="text/css" href="agenda.css" />
+    <title>Agenda</title>
+</head>
+
+<body onload="carregaCookie()">
+    <div class="ag">
+        <form>
+            <h3>Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hora Ini&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hora
+                Fin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Descrição</h3>
+            <input type="date" placeholder="Data" id="data" />
+            <input type="time" placeholder="Inicio Evento" id="horai" />
+            <input type="time" placeholder="Final Evento" id="horaf" />
+            <input type="text" placeholder="Descrição" id="descricao" />
+            <input type="button" value="Adicionar" id="botao" />
+        </form>
+    </div>
+    <div class="tabela">
+        <table>
+            <thead>
+                <th>Data</th>
+                <th>Inicio Evento</th>
+                <th>Final Evento</th>
+                <th>Descrição</th>
+                <th>Status</th>
+            </thead>
+            <tbody id="corpoTabela">
+            </tbody>
+        </table>
+    </div>
+    <div class="ag">
+        <form>
+            <input type="button" value="Salvar como Cookie" onclick="salvaTabelaCookie()" />
+        </form>
+    </div>
+    <script src="agenda.js"></script>
+</body>
+
+</html>

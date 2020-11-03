@@ -1,0 +1,84 @@
+body {
+    background-image: url("./img/agirf.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color:#232323;
+}
+
+.ag{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    margin: 0 0 0 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: 	#DCDCDC;
+}
+.ag form{
+    margin:10px;
+}
+
+.ag form input{
+    padding: 10px;
+    border-radius: 4px;
+}
+.ag form input[type=button]{
+    width: 180px;
+    background-color:#008080;
+    color: white;
+    font-size: 1.1em;
+}
+.ag form input[type=text]{
+    width: 280px;
+    font-size: 1.1em;
+}
+
+.ag form input[type=date]{
+    width: 150px;
+    font-size: 1.3em;
+}
+
+.ag form input[type=time]{
+    width: 90px;
+    font-size: 1.3em;
+}
+
+.tabela{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tabela th{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding:10px;
+    margin: 10px;
+    width: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #708090;
+    color: white;
+}
+.tabela td{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding:10px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color:#008080;
+    color: white;
+}
+.tabela td input{
+    padding:5px;
+    width: 50%;
+    border-radius: 5px;
+    background-color:#008080;
+    color: white;
+    font-size: 1.1em;
+}
